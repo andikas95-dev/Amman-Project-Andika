@@ -1,0 +1,109 @@
+body{
+  margin:0;
+  padding: 0;
+  height: 100vh;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: tomato;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: darkred;
+  color: white;
+}
+
+/* p {
+  font-size: 20px;
+  font-weight: bold;
+} */
+
+.height100{
+  min-height: 100vh;
+}
+
+.section-intro{
+  background-image: url('/assets/imageBg.jpg');
+  background-size: cover;
+  height: 400px;
+  
+  position: relative;
+}
+.intro-white{
+  background-color: rgba(100, 100, 100, 0.7);
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  height: 400px;
+}
+
+.intro-name{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-name p{
+  width: 400px;
+  color: white;
+}
+
+.rounded-div{
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 5px 5px 20px #ffff80;
+  margin-top: 20px;
+}
+
+#photo-profil{
+  display: inline;
+  margin: 0 auto;
+  /* margin-left: -10%; */
+  margin-top: -10%;
+  height: auto;
+  width: 100%;
+}
+
+.bodymargin{
+  padding: 30px;
+  margin: 30px;
+  border: 1px solid black;
+}
+
+footer {
+  background-color: #3498db;
+  padding: 3px;
+  padding-left: 10em;
+}
+
+.text-footer{
+  margin: 10px 0;
+}
