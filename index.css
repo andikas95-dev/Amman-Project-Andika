@@ -107,3 +107,24 @@ footer {
 .text-footer{
   margin: 10px 0;
 }
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.footer-dark-mode {
+  background-color: tomato;
+}
+
+@media screen and (max-width: 768px) {
+  .intro-white{
+    display: block;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .intro-white{
+    display: block;
+  }
+}

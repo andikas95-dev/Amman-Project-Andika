@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Website Andika </title>
     <link rel='stylesheet' href='index.css'>    
   </head>
@@ -8,6 +9,10 @@
   <body>
     <header>
       <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="/about.html">About</a>
         <a class="active" href="#home">Home</a>
         <a href="#news">News</a>
         <a href="#contact">Contact</a>
@@ -33,9 +38,7 @@
       </section>
       <section>
         <div id='demo'></div>
-        <button onclick="gantiTulis()">button</button>
-        <button onclick="gantiTulis()">button</button>
-        <button onclick="gantiTulis()">button</button>
+        <button onclick="darkMode()">button</button>
       </section>
     </section>
     <!-- <section class="height100">
@@ -45,18 +48,9 @@
         </div>
       </section>
     </section> -->
-    <footer>
+    <footer id='footer-section'>
       <p class="text-footer">Design By <a href="https://www.linkedin.com/in/andika-perdana-dirgantara-sutikno-4b1786148/" target="_blank">@Andika Perdana</a></p>
     </footer>
   </body>
-
-  <script>
-    document.getElementById("demo").innerHTML = "Nama Saya Evie";
-    // console.log(document.getElementById("demo"));
-    // console.log(document.getElementsByClassName("andika"));
-
-    function gantiTulis(){
-      document.getElementById("demo").innerHTML = "Nama Saya Darliana";
-    }
-  </script>
+  <script src="./index.js"></script>
 </html>
